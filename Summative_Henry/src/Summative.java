@@ -51,11 +51,11 @@ public class Summative {
 	}
 	public static void PrintNumMax(int [] a) {
 		int sum = 0;
-		int ind = 0;
 		for (int i : a) {
 			if (i <= 2) {
 				sum = sum+i;
 			} else {
+				int ind = 0;
 				for (int d = 2; d<i; d++) {
 					if (i%d == 0) {
 						ind ++;
